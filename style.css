@@ -7,6 +7,7 @@ body {
   height: 95%;
   width: 100%;
   font-family: sans-serif;
+  background-color: black;
 }
 
 .main-container {
@@ -29,5 +30,40 @@ body {
 p{
   text-align: center;
   margin: 3px 0;
-  font-size: 17px;
+  font-size: 20px;
+}
+
+.messages-container {
+  width: 400px;
+  height: auto;
+  background-color: black;
+  border-color: 4px green solid;
+  margin: 0 auto;
+  border-radius: 0px 0px 25px 25px;
+}
+
+.messages-container p {
+  height: 75px;
+  width: 250px;
+  background: grey;
+  border: 2px solid black;
+  position: relative;
+  margin: 1% 20%;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  float: inherit;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.top {
+  height: 50px;
+  width: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 25px 25px 0 0;
+  background-color: #3ca2e0;
+
 }
